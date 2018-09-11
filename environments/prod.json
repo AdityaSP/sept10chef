@@ -1,0 +1,12 @@
+{
+ "name": "prod",
+ "description": "development box",
+ "json_class": "Chef::Environment",
+ "chef_type": "environment",
+ "cookbook_versions": {
+	"apache2": "= 0.1.0"
+  },
+ "override_attributes" : {
+     "apache_port" : 9595
+ }
+}
